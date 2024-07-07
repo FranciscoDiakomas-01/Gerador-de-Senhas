@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassWordGenerator</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <main>
+        <img src="icons8-lock-48.png" alt="imagem">
+        <h1>Gerador e Senhas</h1>
+        <div>
+            <input type="number" id="tamanho" autofocus>
+            <label for="">Quantidade de Caracteres</label>
+        </div>
+        <div class="password">
+            <span></span>
+            <img src="icons8-copy-48.png" alt="copiar" id="copy">
+        </div>
+        <div>
+            <input type="checkbox" id="uppercase">
+            <label for="">Letras maiúsculas</label>
+        </div>
+        <div>
+            <input type="checkbox" id="lowerrcase">
+            <label for="">Letras minusculas</label>
+        </div>
+        <div>
+            <input type="checkbox" id="number">
+            <label for="">Números</label>
+        </div>
+        <div>
+            <input type="checkbox" id="especial_chars">
+            <label for="">Caracteres Especiais</label>
+        </div>
+        <button>Gerar Senha</button>
+    </main>
+</body>
+</html>
